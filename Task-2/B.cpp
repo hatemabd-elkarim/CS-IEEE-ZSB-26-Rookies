@@ -10,7 +10,7 @@ int main()
     {
         int x, n, q;
         cin >> n >> q;
-        vector<long long> s(n + 1, 0);
+        long long s[n + 1] = {0};
 
         for (int i = 1; i <= n; i++)
         {
