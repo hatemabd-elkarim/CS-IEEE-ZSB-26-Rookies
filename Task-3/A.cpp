@@ -18,7 +18,7 @@ int main()
             toAdd /= k;
         }
 
-        if (acc >= n && mid < ans)
+        if (acc >= n)
         {
             ans = mid;
             end = mid - 1;
